@@ -7,15 +7,12 @@ const userSchema = new mongoose.Schema({
     },
     isBot: {
         type: Boolean,
-        required: true,
     },
     firstName: {
         type: String,
-        required: true
     },
     userName: {
         type: String,
-        required: true
     },
     quotesCount: {
         type: Number,
